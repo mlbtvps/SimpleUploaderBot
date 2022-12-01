@@ -2,7 +2,7 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5623479103:AAH50CIzYIgD7ruiw_5pMhyiANzQoKeIVY4")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5705156853:AAETn1HpOHb0POCFGqUCwGOLyVHVN0qR_rM")
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", 17894641))
     API_HASH = os.environ.get("API_HASH", "4e5b39e5c7c6066e5144dfc50cf466cf")
@@ -29,5 +29,5 @@ class Config(object):
     OWNER_ID = int(os.environ.get("OWNER_ID", "5468192421"))
     SESSION_NAME = "SIMPLEUPLOADERBOT"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://testorg:testorg@cluster0.0menx0b.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://anasty:anasty@anasty.diboh0t.mongodb.net/?retryWrites=true&w=majority")
     MAX_RESULTS = "50"
